@@ -5,7 +5,7 @@ This web app allows you to enter the names of players and randomly assign each o
 
 ---
 
-## 🌟 Preview
+## 🤠 Preview
 
 ![Screenshot of the Character Assigner](images/screenshot.png)
 
@@ -25,17 +25,17 @@ Or scan this QR code:
 
 ---
 
-## 🖼 Project Structure
+## 📂 Project Structure
 
-/images → contains the images of the characters and the QR code
-index.html → main page
-style.css → page styling
-script.js → character assignment logic
-README.md → this file
+- /images → contains the images of the characters and the QR code
+- index.html → main page
+- style.css → page styling
+- script.js → character assignment logic
+- README.md → this file
 
 ---
 
-## ⚡ Features
+## 📝 Features
 
 - Blurred and elegant background image  
 - Player input box with frosted glass effect  
@@ -45,11 +45,9 @@ README.md → this file
 
 ---
 
-## 📌 Development Instructions
+## 🛠️ Development Instructions
 
 To modify the app, clone the repo:
 
 ```bash
 git clone https://github.com/tuusuario/BANG-Gold-Rush-Character-Asignation.git
-
----
