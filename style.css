@@ -41,6 +41,7 @@ button:hover {
     background: #0056b3;
 }
 
+/* Card principal (mantienes tu estilo actual) */
 .card {
     background: rgba(255, 255, 255, 0.4); /* semitransparente */
     backdrop-filter: blur(8px);           /* difumina el fondo detrás */
@@ -50,6 +51,17 @@ button:hover {
     padding: 15px;
     margin-top: 15px;
     color: #000; 
+}
+
+/* Textos dentro de la card: jugador y personaje */
+.card h3, .card p {
+    background: rgba(0, 0, 0, 0.6); /* fondo semitransparente sobre la card */
+    color: white;                    /* texto legible */
+    display: inline-block;           /* fondo ajustado al texto */
+    padding: 4px 8px;                /* espacio interno */
+    border-radius: 6px;              /* bordes redondeados */
+    margin: 5px 0;
+    font-weight: bold;               /* negrita */
 }
 
 .card img {
