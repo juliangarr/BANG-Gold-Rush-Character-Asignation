@@ -4,10 +4,22 @@ body {
     background: #f4f4f4;
     max-width: 600px;
     margin: auto;
+
+    /* BACKGROUND */
+    background: url("images/background.jpg");
+    background-size: cover;       /* que cubra toda la pantalla */
+    background-repeat: no-repeat; /* evita mosaico */
+    background-attachment: fixed; /* efecto de fondo fijo */
 }
 
 h1 {
+    background: rgba(0, 0, 0, 0.4);      /* semitransparente sobre la imagen */
+    backdrop-filter: blur(6px);
+    color: white;                        /* texto legible */
+    padding: 15px 20px;
+    border-radius: 12px;
     text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
 }
 
 input, textarea, button {
@@ -30,16 +42,33 @@ button:hover {
 }
 
 .card {
-    background: white;
+    background: rgba(255, 255, 255, 0.4); /* semitransparente */
+    backdrop-filter: blur(8px);           /* difumina el fondo detrás */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
     padding: 15px;
     margin-top: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
-    text-align: center;
+    color: #000; 
 }
 
 .card img {
     width: 120px;
     display: block;
     margin: 10px auto;
+}
+
+.input-box {
+    background: rgba(255, 255, 255, 0.5); /* semitransparente */
+    backdrop-filter: blur(8px);           /* difumina lo que está detrás */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* importante */
 }
